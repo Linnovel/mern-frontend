@@ -22,8 +22,8 @@ const CreatePage = () => {
 
   const handleAddProduct = async () => {
     const { success, message } = await createProduct(newProduct);
-    console.log("success", success);
-    console.log("mensaje", message);
+    // console.log("success", success);
+    // console.log("mensaje", message);
     if (!success) {
       toas({
         title: "Error",

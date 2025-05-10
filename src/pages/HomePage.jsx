@@ -10,7 +10,7 @@ const HomePage = () => {
   useEffect(() => {
     fetchProducts();
   }, [fetchProducts]);
-  console.log("productos", products);
+  // console.log("productos", products);
 
   return (
     <>
