@@ -9,6 +9,7 @@ export default defineConfig({
       "/api": {
         target: "http://localhost:5000"
       }
-    }
+    },
+    port: process.env.PORT || 4173,  // Asegúrate de que Vite use el puerto proporcionado por Render.
   }
 })
