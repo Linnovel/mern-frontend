@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite preview --port $PORT",
-    "build": "npm install -g vite && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@chakra-ui/react": "^2.10.7",
